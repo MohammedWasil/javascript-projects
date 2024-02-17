@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Roboto' sans-serif;
+}
+.count{
+    font-size: 3rem;
+    text-align: center;
+    /* font-family: 'Roboto' sans-serif; */
+}
+.buttons{
+    text-align: center;
+}
+.minus-btn{
+   border: 1px solid grey;
+   padding: 10px 16px;
+    background: cyan;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.minus-btn:hover{
+    background: rgb(147, 35, 179);
+ }
+
+.plus-btn{
+    border: 1px solid grey;
+    padding: 10px 16px;
+     background: cyan;
+     font-size: 1rem;
+     border-radius: 4px;
+     cursor: pointer;
+}
+.plus-btn:hover{
+    background: rgb(147, 35, 179);
+ }
+
+.reset-btn{
+    border: 1px solid grey;
+    padding: 10px 16px;
+     background: cyan;
+     font-size: 1rem;
+     border-radius: 4px;
+     cursor: pointer;
+}
+ .reset-btn:hover{
+   background: rgb(147, 35, 179);
+}
+.text{
+    text-align: center;
+    margin: 0 -29px 56px 0;
+}
+.changeBy{
+   width: 4rem;
+   height: 1.7rem;
+   font-size: 1rem;
+   margin: 16px 8px;
+}
